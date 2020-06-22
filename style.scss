@@ -45,6 +45,7 @@ h2{
 h3{
   font-size:2.8vh; 
   font-weight: 200;
+  padding: 3%;
 }
 
 h4{
@@ -175,9 +176,14 @@ padding: 2% 1%;
 .showcaseimg img{
   width:44%;
   margin: 1%;
-  animation: shake 6s;
+  animation: shake 20s;
   animation-iteration-count: infinite;
+  border-radius: 10px;
 }
+}
+
+footer{
+  padding: 5%;
 }
 
 
@@ -204,6 +210,8 @@ a{
 }
 
 
+
+
 @media only screen and (max-width: 600px) {
 html{
   padding:0;
@@ -218,7 +226,10 @@ header{
   }
 }
 
-
+img{
+  width:500px;
+  
+}
 nav a span{
   display: none;
 }

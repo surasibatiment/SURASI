@@ -39,6 +39,7 @@ h2 {
 h3 {
   font-size: 2.8vh;
   font-weight: 200;
+  padding: 3%;
 }
 
 h4 {
@@ -200,10 +201,15 @@ header a:hover {
 .frame .showcaseimg img {
   width: 44%;
   margin: 1%;
-  -webkit-animation: shake 6s;
-          animation: shake 6s;
+  -webkit-animation: shake 20s;
+          animation: shake 20s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+  border-radius: 10px;
+}
+
+footer {
+  padding: 5%;
 }
 
 .btn {
@@ -238,6 +244,9 @@ a {
   }
   header img:nth-child(2) {
     display: none;
+  }
+  img {
+    width: 500px;
   }
   nav a span {
     display: none;
