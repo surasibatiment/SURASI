@@ -206,12 +206,17 @@ header a:hover {
           align-items: center;
 }
 
-.frame .showcaseimg img {
-  width: 30%;
+.frame .showcaseimg a img {
+  width: 100%;
   height: auto;
   margin: 1%;
   border-radius: 5px;
   border: 2px var(--text_black) solid;
+}
+
+.frame .showcaseimg a {
+  width: 30%;
+  margin: 1%;
 }
 
 footer {

@@ -179,14 +179,18 @@ padding: 2% 1%;
   flex-wrap: wrap;
   align-items: center;
   }
-.showcaseimg img{
-  width:30%;
+.showcaseimg a img{
+  width:100%;
   height: auto;
   margin: 1%;
   border-radius: 5px;
   border: 2px var(--text_black) solid;
 }
 
+.showcaseimg a {
+  width:30%;
+  margin: 1%;
+}
 
 }
 
